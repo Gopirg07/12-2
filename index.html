@@ -1,0 +1,33 @@
+<html>
+<head> 
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function fn(){
+            var fn=document.getElementById("Fname").value;
+            console.log("Firstname is "+fn);
+            var mn=document.getElementById("Mname").value;
+            console.log("Middlename is "+mn);
+            var ln=document.getElementById("Lname").value;
+            console.log("lastname is "+ln);
+            var pn=document.getElementById("pn").value;
+            console.log("phonenumber is "+pn);
+        };
+    </script>
+    
+    <label for="Fname">Firstname</label> <br>
+    <input type="text" id="Fname"> <br>
+
+    <label for="Mname">Middlename</label><br>
+    <input type="text" id="Mname"><br>
+
+    <label for="Lname">Lastname</label> <br>
+    <input type="text" id="Lname"><br>
+
+    <label for="Pn">Phonenumber</label><br>
+    <input type="number" id="pn"><br>
+
+    <button onclick="fn()">Submit</button>
+</body>
+</html>
